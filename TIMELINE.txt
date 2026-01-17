@@ -3,3 +3,10 @@ TIMELINE AND GUIDE FOR AI-POWERED APPLICANT TRACKER SYSTEM
 1. FIRST  GO TO VITE DOCUMENTATION
 ->npm create vite@latest . as root folder
 
+2. ADD ALL THE DEPENDENCIES
+->npm install -D tw-animate-css - para sa  animation sa tailwind
+->npm install clsx -
+npm install tailwind-merge
+npm install pdfjs-dist
+npm install zustand
+
