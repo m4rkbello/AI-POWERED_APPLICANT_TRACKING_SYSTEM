@@ -1,5 +1,6 @@
 import Navbar from "~/components/Navbar";
 import type { Route } from "./+types/home";
+import { resumes } from "constants";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -17,5 +18,6 @@ export default function Home() {
         <h2>Review your  submissions and check  AI-Powered feedback.</h2>
       </div>
     </section>
+  {resumes}
   </main>;
 }
